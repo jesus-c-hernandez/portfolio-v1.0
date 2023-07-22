@@ -16,4 +16,8 @@ export const appRoutes: Route[] = [
     loadChildren: () =>
       import('./contact/contact.routes').then((r) => r.contactRoutes),
   },
+  {
+    path: '**',
+    loadChildren: () => import('./home/home.routes').then((r) => r.homeRoutes),
+  },
 ];
