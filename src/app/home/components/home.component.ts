@@ -30,11 +30,11 @@ export class HomeComponent {
     //   route: '/skills',
     //   text: 'Skills',
     // },
-    // {
-    //   img: 'https://i.ibb.co/3Ms8xZg/email.png',
-    //   imgAlt: 'contact',
-    //   route: '/contact',
-    //   text: 'Contact',
-    // },
+    {
+      img: 'https://i.ibb.co/3Ms8xZg/email.png',
+      imgAlt: 'contact',
+      route: '/contact',
+      text: 'Contact',
+    },
   ];
 }

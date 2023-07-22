@@ -21,8 +21,10 @@ body {
 // === Background ===
 .bg-main {
   background-image: url("./assets/backgrounds/bg-main.png");
-  height: 100vh;
+  height: 100dvh;
   padding: 20px 0;
+  display: grid;
+  place-items: center;
 }
 
 // === Console Styles ===

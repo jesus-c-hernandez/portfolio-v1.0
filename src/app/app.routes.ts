@@ -11,4 +11,9 @@ export const appRoutes: Route[] = [
     loadChildren: () =>
       import('./about/about.routes').then((r) => r.aboutRoutes),
   },
+  {
+    path: 'contact',
+    loadChildren: () =>
+      import('./contact/contact.routes').then((r) => r.contactRoutes),
+  },
 ];

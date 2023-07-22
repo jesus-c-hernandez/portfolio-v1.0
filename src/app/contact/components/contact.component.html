@@ -1,0 +1,64 @@
+<div class="bg-main">
+  <div class="console-box" [ngClass]="{ 'console-box-out': !isBtnOnActive }">
+    <div class="console-cont-top">
+      <div class="top-cont-btn">
+        <button
+          class="console-btn btn-on"
+          [ngClass]="{ 'console-btn-active': isBtnOnActive }"
+        >
+          On
+        </button>
+        <button class="console-btn btn-off" (click)="onClickBtnOff()">
+          Off
+        </button>
+      </div>
+    </div>
+    <div class="console-cont-screen">
+      <div class="console-deco-cont">
+        <div class="console-deco"></div>
+        <p class="console-deco-label">I hope you enjoy the page</p>
+        <div class="console-deco console-deco-small"></div>
+        <div class="console-deco console-deco-c2"></div>
+        <div class="console-deco console-deco-c2 console-deco-small"></div>
+      </div>
+
+      <div class="console-power-icon"></div>
+      <p class="console-power-label">Power</p>
+      <div class="screen-cont">
+        <h3>Contact me</h3>
+        <div class="table">
+          <ul>
+            <i
+              class="nes-icon github is-medium nes-pointer"
+              (click)="openNewWindow('https://github.com/jesus-c-hernandez')"
+            ></i>
+            <i
+              class="nes-icon gmail is-medium nes-pointer"
+              (click)="copyToClipboard()"
+            ></i>
+            <i
+              class="nes-icon linkedin is-medium nes-pointer"
+              (click)="
+                openNewWindow(
+                  'http://www.linkedin.com/in/jesus-casta%C3%B1eda-hernandez'
+                )
+              "
+            ></i>
+            <!-- <i class="nes-bulbasaur"></i> -->
+            <!-- <i class="nes-charmander"></i> -->
+            <i class="nes-squirtle poke"></i>
+          </ul>
+          <div class="table-base base-left"></div>
+          <div class="table-base base-right"></div>
+          <div class="nes-balloon balloon from-right" *ngIf="emailCopied">
+            <p class="balloon-text">
+              Squirtle <br />
+              squirtle <br />
+              (Copied)
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
