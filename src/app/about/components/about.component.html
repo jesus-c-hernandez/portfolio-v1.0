@@ -1,0 +1,51 @@
+<div class="bg-main">
+  <div class="console-box" [ngClass]="{ 'console-box-out': !isBtnOnActive }">
+    <div class="console-cont-top">
+      <div class="top-cont-btn">
+        <button
+          class="console-btn btn-on"
+          [ngClass]="{ 'console-btn-active': isBtnOnActive }"
+        >
+          On
+        </button>
+        <button class="console-btn btn-off" (click)="onClickBtnOff()">
+          Off
+        </button>
+      </div>
+    </div>
+    <div class="console-cont-screen">
+      <div class="console-deco-cont">
+        <div class="console-deco"></div>
+        <p class="console-deco-label">I hope you enjoy the page</p>
+        <div class="console-deco console-deco-small"></div>
+        <div class="console-deco console-deco-c2"></div>
+        <div class="console-deco console-deco-c2 console-deco-small"></div>
+      </div>
+
+      <div class="console-power-icon"></div>
+      <p class="console-power-label">Power</p>
+      <div class="screen-cont">
+        <section class="message-list">
+          <section class="message -left">
+            <!-- Balloon -->
+            <div class="nes-balloon balloon">
+              <p class="text">
+                Hi, I'm <span class="text-dev">Jesus Hdez</span>, a
+                <span class="text-position">FullStack Engineer</span> with 2+
+                years of experience in the tech industry. I’ve participated in
+                the full cycle of the development of different solutions. I'm
+                passionate about building scalable and user-friendly web
+                applications.
+              </p>
+            </div>
+          </section>
+        </section>
+        <img
+          src="https://i.ibb.co/pf0Q79C/user-removebg-preview-v1.png"
+          alt="skin-dev"
+        />
+        <div class="img-circle"></div>
+      </div>
+    </div>
+  </div>
+</div>
