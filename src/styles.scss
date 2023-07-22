@@ -1,1 +1,142 @@
-/* You can add global styles to this file, and also import other style files */
+$main-color-1: #8c1c54;
+$main-color-4: #625f6e;
+$main-color-6: #bebebe;
+$main-color-7: #808080;
+$main-color-8: #333399;
+
+$fc-1: #f1f3f5;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  // font-family: "Press Start 2P", cursive;
+  // font-family: "Roboto Mono", monospace;
+  // font-family: "VT323", monospace;
+  height: 100vh;
+}
+// === Background ===
+.bg-main {
+  background-image: url("./assets/backgrounds/bg-main.png");
+  height: 100vh;
+  padding: 20px 0;
+}
+
+// === Console Styles ===
+.console-box {
+  width: 360px;
+  height: 600px;
+  background-color: $main-color-6;
+  margin: 10px auto;
+  border-radius: 20px 20px 100px 20px;
+  border: 2px $main-color-4 solid;
+}
+
+.console-cont-top {
+  width: 356px;
+  height: 34px;
+}
+
+.top-cont-btn {
+  width: 96px;
+  margin: 4px auto 0 auto;
+  margin-left: 240px;
+  display: flex;
+}
+
+.console-btn {
+  font-family: "VT323", monospace;
+  font-size: 16px;
+  padding: 0px 14px;
+  background-color: $main-color-6;
+  border: $main-color-4 2px solid;
+}
+
+.console-btn:hover,
+.console-btn-active {
+  background-color: $main-color-4;
+  color: $fc-1;
+}
+
+.btn-on {
+  border-right: $main-color-4 1px solid;
+  border-radius: 16px 0 0 16px;
+}
+
+.btn-off {
+  border-left: $main-color-4 1px solid;
+  border-radius: 0 16px 16px 0;
+}
+
+.console-btn-separator {
+  font-family: "VT323", monospace;
+  font-size: 16px;
+}
+
+.console-cont-screen {
+  width: 340px;
+  height: 540px;
+  background-color: $main-color-7;
+  margin: 8px auto;
+  border-radius: 10px 10px 80px 10px;
+  border: 2px $main-color-4 solid;
+  position: relative;
+}
+
+.console-deco-cont {
+  display: grid;
+  grid-template-columns: 140px 1fr 40px;
+  grid-template-rows: 10px 10px;
+  align-items: center;
+  justify-items: center;
+}
+
+.console-deco {
+  width: 130px;
+  height: 4px;
+  background-color: $main-color-1;
+  margin: 8px 10px;
+}
+
+.console-deco-c2 {
+  background-color: $main-color-8;
+}
+
+.console-deco-small {
+  width: 30px;
+}
+
+.console-deco-label {
+  font-family: "VT323", monospace;
+  color: $fc-1;
+  opacity: 0.6;
+  margin: 0;
+  font-size: 14px;
+  grid-row: 1 / -1;
+  grid-column: 2;
+}
+
+.console-power-icon {
+  width: 10px;
+  height: 10px;
+  background: #ff0000;
+  position: absolute;
+  border-radius: 50%;
+  left: 10px;
+  top: 45%;
+  transform: translate(0%, -50%);
+  box-shadow: 0px 0px 10px rgb(247 0 0);
+}
+
+.console-power-label {
+  font-family: "VT323", monospace;
+  color: $fc-1;
+  opacity: 0.6;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translate(-25%, -50%);
+}

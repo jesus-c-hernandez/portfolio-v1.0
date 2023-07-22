@@ -1,0 +1,47 @@
+.btns-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+  animation: puff-in-ver 0.8s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+}
+
+/**
+ * ----------------------------------------
+ * animation puff-in-ver
+ * ----------------------------------------
+ */
+@-webkit-keyframes puff-in-ver {
+  0% {
+    -webkit-transform: scaleY(2);
+    transform: scaleY(2);
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes puff-in-ver {
+  0% {
+    -webkit-transform: scaleY(2);
+    transform: scaleY(2);
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}

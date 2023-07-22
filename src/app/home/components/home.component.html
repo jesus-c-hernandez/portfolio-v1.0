@@ -1,0 +1,12 @@
+<div class="bg-main">
+  <div class="btns-cont">
+    <div *ngFor="let btn of btnList">
+      <port-btn-icon
+        [btnImage]="btn.img"
+        [imgAlt]="btn.imgAlt"
+        [btnText]="btn.text"
+        [route]="btn.route"
+      ></port-btn-icon>
+    </div>
+  </div>
+</div>
