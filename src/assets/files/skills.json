@@ -1,0 +1,143 @@
+{
+  "skills": [
+    {
+      "name": "Angular",
+      "area": [
+        "front"
+      ],
+      "img": "https://i.ibb.co/12sgKw0/angular.png",
+      "xp": "Medium"
+    },
+    {
+      "name": "HTML",
+      "area": [
+        "front"
+      ],
+      "img": "https://i.ibb.co/Wg50dDy/html5.png",
+      "xp": "Medium"
+    },
+    {
+      "name": "CSS",
+      "area": [
+        "front"
+      ],
+      "img": "https://i.ibb.co/zxgG9qc/css.png",
+      "xp": "Medium"
+    },
+    {
+      "name": "Figma",
+      "area": [
+        "front"
+      ],
+      "img": "https://i.ibb.co/9wYFftC/figma.png",
+      "xp": "Medium"
+    },
+    {
+      "name": "Docker",
+      "area": [
+        "back"
+      ],
+      "img": "https://i.ibb.co/GkMfwbk/docker.png",
+      "xp": "Low"
+    },
+    {
+      "name": "Git",
+      "area": [
+        "front",
+        "back"
+      ],
+      "img": "https://i.ibb.co/MgyQHrp/git.png",
+      "xp": "Medium"
+    },
+    {
+      "name": "Java",
+      "area": [
+        "back"
+      ],
+      "img": "https://i.ibb.co/KDv9Vd5/java.png",
+      "xp": "Medium"
+    },
+    {
+      "name": "JS",
+      "area": [
+        "front",
+        "back"
+      ],
+      "img": "https://i.ibb.co/9bcVjxy/js.png",
+      "xp": "Medium"
+    },
+    {
+      "name": "Linux",
+      "area": [
+        "back"
+      ],
+      "img": "https://i.ibb.co/Nx2hVbn/linux.png",
+      "xp": "Low"
+    },
+    {
+      "name": "Mongo",
+      "area": [
+        "back"
+      ],
+      "img": "https://i.ibb.co/qBnzFrW/mongo.png",
+      "xp": "Medium"
+    },
+    {
+      "name": "TS",
+      "area": [
+        "front",
+        "back"
+      ],
+      "img": "https://i.ibb.co/RB3dMnY/ts.png",
+      "xp": "Medium"
+    },
+    {
+      "name": "React",
+      "area": [
+        "front"
+      ],
+      "img": "https://i.ibb.co/HhNz9QS/react.png",
+      "xp": "Low"
+    },
+    {
+      "name": "PostgreSQL",
+      "area": [
+        "back"
+      ],
+      "img": "https://i.ibb.co/bX245dx/postgresql.png",
+      "xp": "Low"
+    },
+    {
+      "name": "NgRx",
+      "area": [
+        "front"
+      ],
+      "img": "https://i.ibb.co/PDQKzqS/ngrx.png",
+      "xp": "Low"
+    },
+    {
+      "name": "SCSS",
+      "area": [
+        "front"
+      ],
+      "img": "https://i.ibb.co/X4z3xqH/sass.png",
+      "xp": "Medium"
+    },
+    {
+      "name": "Express",
+      "area": [
+        "back"
+      ],
+      "img": "https://i.ibb.co/Z1hMBL3/express.png",
+      "xp": "Medium"
+    },
+    {
+      "name": "Node js",
+      "area": [
+        "back"
+      ],
+      "img": "https://i.ibb.co/hF6pqHp/node.png",
+      "xp": "Medium"
+    }
+  ]
+}

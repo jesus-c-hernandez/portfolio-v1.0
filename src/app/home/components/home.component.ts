@@ -24,12 +24,12 @@ export class HomeComponent {
     //   route: '/projects',
     //   text: 'Projects',
     // },
-    // {
-    //   img: 'https://i.ibb.co/P9kTJh5/skills.png',
-    //   imgAlt: 'skills',
-    //   route: '/skills',
-    //   text: 'Skills',
-    // },
+    {
+      img: 'https://i.ibb.co/P9kTJh5/skills.png',
+      imgAlt: 'skills',
+      route: '/skills',
+      text: 'Skills',
+    },
     {
       img: 'https://i.ibb.co/3Ms8xZg/email.png',
       imgAlt: 'contact',

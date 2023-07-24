@@ -1,0 +1,45 @@
+<div class="bg-main">
+  <div class="console-box" [ngClass]="{ 'console-box-out': !isBtnOnActive }">
+    <div class="console-cont-top">
+      <div class="top-cont-btn">
+        <button
+          class="console-btn btn-on"
+          [ngClass]="{ 'console-btn-active': isBtnOnActive }"
+        >
+          On
+        </button>
+        <button class="console-btn btn-off" (click)="onClickBtnOff()">
+          Off
+        </button>
+      </div>
+    </div>
+    <div class="console-cont-screen">
+      <div class="console-deco-cont">
+        <div class="console-deco"></div>
+        <p class="console-deco-label">I hope you enjoy the page</p>
+        <div class="console-deco console-deco-small"></div>
+        <div class="console-deco console-deco-c2"></div>
+        <div class="console-deco console-deco-c2 console-deco-small"></div>
+      </div>
+
+      <div class="console-power-icon"></div>
+      <p class="console-power-label">Power</p>
+      <div class="screen-cont">
+        <h3>Skills</h3>
+        <port-skill-info [skill]="skillSelected"></port-skill-info>
+        <div class="skill-icons-gen-cont">
+          <ng-container *ngIf="data$ | async as data">
+            <div class="skill-img-cont" *ngFor="let skill of data.skills">
+              <img
+                class="nes-pointer"
+                [src]="skill.img"
+                alt="skill-dev"
+                (click)="onClickSkill(skill)"
+              />
+            </div>
+          </ng-container>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

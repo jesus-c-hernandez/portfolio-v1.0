@@ -1,0 +1,8 @@
+<div class="area-tag-cont">
+  <ng-container *ngFor="let area of areas">
+    <span class="bgc-1" [ngClass]="{ 'bgc-8': area === 'back' }">{{
+      area
+    }}</span>
+  </ng-container>
+  <!-- <span>Front</span> -->
+</div>
