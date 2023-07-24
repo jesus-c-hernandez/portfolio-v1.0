@@ -1,9 +1,8 @@
 import { Route } from '@angular/router';
-import { AppComponent } from './app.component';
 
 export const appRoutes: Route[] = [
   {
-    path: '',
+    path: 'home',
     loadChildren: () => import('./home/home.routes').then((r) => r.homeRoutes),
   },
   {
@@ -17,7 +16,12 @@ export const appRoutes: Route[] = [
       import('./contact/contact.routes').then((r) => r.contactRoutes),
   },
   {
+    path: 'skills',
+    loadChildren: () =>
+      import('./skills/skills.routes').then((r) => r.skillsRoutes),
+  },
+  {
     path: '**',
-    loadChildren: () => import('./home/home.routes').then((r) => r.homeRoutes),
+    redirectTo: 'home',
   },
 ];

@@ -1,0 +1,19 @@
+<div class="skill-info-gen-cont">
+  <div class="skill-name-cont">
+    <p class="skill-name-text">{{ skill?.name }}</p>
+  </div>
+  <div class="skill-icon-cont">
+    <div class="skill-icon-cont-i">
+      <p *ngIf="!skill">Select one</p>
+      <img *ngIf="skill" [src]="skill.img" alt="skill-img" />
+    </div>
+  </div>
+  <div class="skill-info-cont">
+    <div class="skill-info-cont-i">
+      <p class="skill-info-xp">XP. {{ skill?.xp }}</p>
+      <div class="skill-info-type-cont">
+        <port-area-tag [areas]="skill?.area"></port-area-tag>
+      </div>
+    </div>
+  </div>
+</div>
