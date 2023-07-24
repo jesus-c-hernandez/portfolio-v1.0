@@ -1,7 +1,6 @@
-import { CommonModule } from '@angular/common';
+import { CommonModule, NgOptimizedImage } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { AreaTagComponent } from './area-tag/area-tag.component';
 import { SkillInterface } from '../types/skill.interface';
 import { SkillsService } from '../services/skills.service';
 import { combineLatest } from 'rxjs';
@@ -12,7 +11,7 @@ import { SkillInfoComponent } from './skill-info/skill-info.component';
   templateUrl: 'skills.component.html',
   styleUrls: ['./skills.component.scss'],
   standalone: true,
-  imports: [CommonModule, SkillInfoComponent],
+  imports: [CommonModule, SkillInfoComponent, NgOptimizedImage],
 })
 export class SkillsComponent implements OnInit {
   isBtnOnActive: boolean = true;

@@ -32,7 +32,9 @@
             <div class="skill-img-cont" *ngFor="let skill of data.skills">
               <img
                 class="nes-pointer"
-                [src]="skill.img"
+                [ngSrc]="skill.img"
+                width="40"
+                height="40"
                 alt="skill-dev"
                 (click)="onClickSkill(skill)"
               />
