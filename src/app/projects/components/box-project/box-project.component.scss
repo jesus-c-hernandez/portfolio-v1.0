@@ -1,0 +1,58 @@
+$main-color-1: #8c1c54;
+$main-color-6: #bebebe;
+
+.box-proj-cont {
+  width: 140px;
+  height: 130px;
+  background-color: $main-color-6;
+  border-radius: 2px;
+
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  grid-template-rows: 10px 1fr;
+  align-items: center;
+
+  position: relative;
+
+  box-shadow: 6px 6px 4px rgba($color: #000000, $alpha: 0.25);
+  transition: 0.8s;
+}
+
+.box-proj-cont:hover {
+  transform: scale(1.5);
+  z-index: 1;
+}
+
+.box-proj-nin-icon {
+  width: 20px;
+  height: 4px;
+}
+
+.box-proj-cover {
+  width: 120px;
+  height: 130px;
+  object-fit: cover;
+  grid-row: 1 / -1;
+  grid-column: 2;
+}
+
+.box-proj-name {
+  width: 120px;
+  height: 20px;
+  font-family: "Arial";
+  // display: inline-block;
+
+  // position: absolute;
+
+  // transform: translateX(-20px);
+  transform: rotate(-90deg);
+}
+
+.box-proj-name p {
+  transform: translateY(-50px);
+  font-size: 12px;
+  font-weight: 900;
+  font-style: italic;
+  text-align: center;
+  color: $main-color-1;
+}

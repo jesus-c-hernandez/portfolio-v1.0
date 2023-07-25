@@ -1,0 +1,74 @@
+$main-color-4: #625f6e;
+
+.table {
+  width: 360px;
+  height: 566px;
+  background-color: $main-color-4;
+  border-radius: 6px;
+  border: 4px #212529 solid;
+  padding: 14px;
+
+  box-shadow: 0 8px 1px rgba($color: #000000, $alpha: 0.25);
+
+  position: relative;
+
+  animation: scale-up-ver-center 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+.back-btn {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.table-base {
+  width: 30px;
+  height: 22px;
+  background-color: $main-color-4;
+  border-radius: 0 0 4px 4px;
+  border: 4px #212529 solid;
+
+  position: absolute;
+  bottom: -22px;
+}
+
+.base-left {
+  left: 10px;
+}
+
+.base-right {
+  right: 10px;
+}
+
+.port-box-project-cont {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+/**
+ * ----------------------------------------
+ * animation scale-up-ver-center
+ * ----------------------------------------
+ */
+@-webkit-keyframes scale-up-ver-center {
+  0% {
+    -webkit-transform: scaleY(0.4);
+    transform: scaleY(0.4);
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+  }
+}
+@keyframes scale-up-ver-center {
+  0% {
+    -webkit-transform: scaleY(0.4);
+    transform: scaleY(0.4);
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+  }
+}

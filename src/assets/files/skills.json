@@ -5,7 +5,7 @@
       "area": [
         "front"
       ],
-      "img": "https://i.ibb.co/12sgKw0/angular.png",
+      "img": "../../../../assets/skills/angular.png",
       "xp": "Medium"
     },
     {
@@ -13,7 +13,7 @@
       "area": [
         "front"
       ],
-      "img": "https://i.ibb.co/Wg50dDy/html5.png",
+      "img": "../../../../assets/skills/html5.png",
       "xp": "Medium"
     },
     {
@@ -21,7 +21,7 @@
       "area": [
         "front"
       ],
-      "img": "https://i.ibb.co/zxgG9qc/css.png",
+      "img": "../../../../assets/skills/css.png",
       "xp": "Medium"
     },
     {
@@ -29,7 +29,7 @@
       "area": [
         "front"
       ],
-      "img": "https://i.ibb.co/9wYFftC/figma.png",
+      "img": "../../../../assets/skills/figma.png",
       "xp": "Medium"
     },
     {
@@ -37,7 +37,7 @@
       "area": [
         "back"
       ],
-      "img": "https://i.ibb.co/GkMfwbk/docker.png",
+      "img": "../../../../assets/skills/docker.png",
       "xp": "Low"
     },
     {
@@ -46,7 +46,7 @@
         "front",
         "back"
       ],
-      "img": "https://i.ibb.co/MgyQHrp/git.png",
+      "img": "../../../../assets/skills/git.png",
       "xp": "Medium"
     },
     {
@@ -54,7 +54,7 @@
       "area": [
         "back"
       ],
-      "img": "https://i.ibb.co/KDv9Vd5/java.png",
+      "img": "../../../../assets/skills/java.png",
       "xp": "Medium"
     },
     {
@@ -63,7 +63,7 @@
         "front",
         "back"
       ],
-      "img": "https://i.ibb.co/9bcVjxy/js.png",
+      "img": "../../../../assets/skills/js.png",
       "xp": "Medium"
     },
     {
@@ -71,7 +71,7 @@
       "area": [
         "back"
       ],
-      "img": "https://i.ibb.co/Nx2hVbn/linux.png",
+      "img": "../../../../assets/skills/linux.png",
       "xp": "Low"
     },
     {
@@ -79,7 +79,7 @@
       "area": [
         "back"
       ],
-      "img": "https://i.ibb.co/qBnzFrW/mongo.png",
+      "img": "../../../../assets/skills/mongo.png",
       "xp": "Medium"
     },
     {
@@ -88,7 +88,7 @@
         "front",
         "back"
       ],
-      "img": "https://i.ibb.co/RB3dMnY/ts.png",
+      "img": "../../../../assets/skills/ts.png",
       "xp": "Medium"
     },
     {
@@ -96,7 +96,7 @@
       "area": [
         "front"
       ],
-      "img": "https://i.ibb.co/HhNz9QS/react.png",
+      "img": "../../../../assets/skills/react.png",
       "xp": "Low"
     },
     {
@@ -104,7 +104,7 @@
       "area": [
         "back"
       ],
-      "img": "https://i.ibb.co/bX245dx/postgresql.png",
+      "img": "../../../../assets/skills/postgresql.png",
       "xp": "Low"
     },
     {
@@ -112,7 +112,7 @@
       "area": [
         "front"
       ],
-      "img": "https://i.ibb.co/PDQKzqS/ngrx.png",
+      "img": "../../../../assets/skills/ngrx.png",
       "xp": "Low"
     },
     {
@@ -120,7 +120,7 @@
       "area": [
         "front"
       ],
-      "img": "https://i.ibb.co/X4z3xqH/sass.png",
+      "img": "../../../../assets/skills/sass.png",
       "xp": "Medium"
     },
     {
@@ -128,7 +128,7 @@
       "area": [
         "back"
       ],
-      "img": "https://i.ibb.co/Z1hMBL3/express.png",
+      "img": "../../../../assets/skills/express.png",
       "xp": "Medium"
     },
     {
@@ -136,7 +136,7 @@
       "area": [
         "back"
       ],
-      "img": "https://i.ibb.co/hF6pqHp/node.png",
+      "img": "../../../../assets/skills/node.png",
       "xp": "Medium"
     }
   ]

@@ -18,12 +18,12 @@ export class HomeComponent {
       route: '/about',
       text: 'About',
     },
-    // {
-    //   img: 'https://i.ibb.co/mXdqx16/pixil-frame-0.png',
-    //   imgAlt: 'projects',
-    //   route: '/projects',
-    //   text: 'Projects',
-    // },
+    {
+      img: 'https://i.ibb.co/mXdqx16/pixil-frame-0.png',
+      imgAlt: 'projects',
+      route: '/projects',
+      text: 'Projects',
+    },
     {
       img: 'https://i.ibb.co/P9kTJh5/skills.png',
       imgAlt: 'skills',

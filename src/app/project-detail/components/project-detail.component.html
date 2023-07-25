@@ -1,0 +1,113 @@
+<div class="bg-main">
+  <div class="console-box" [ngClass]="{ 'console-box-out': !isBtnOnActive }">
+    <div class="console-cont-top">
+      <div class="top-cont-btn">
+        <button
+          class="console-btn btn-on"
+          [ngClass]="{ 'console-btn-active': isBtnOnActive }"
+        >
+          On
+        </button>
+        <button class="console-btn btn-off" (click)="onClickBtnOff()">
+          Off
+        </button>
+      </div>
+    </div>
+    <div class="console-cont-screen">
+      <div class="console-deco-cont">
+        <div class="console-deco"></div>
+        <p class="console-deco-label">I hope you enjoy the page</p>
+        <div class="console-deco console-deco-small"></div>
+        <div class="console-deco console-deco-c2"></div>
+        <div class="console-deco console-deco-c2 console-deco-small"></div>
+      </div>
+      <div class="console-power-icon"></div>
+      <p class="console-power-label">Power</p>
+      <div class="screen-cont">
+        <div class="top-cont">
+          <div class="info-proj-cont">
+            <p>INFO. PROJECT</p>
+          </div>
+          <button class="top-btn" [routerLink]="'/projects'">
+            <span>B </span>
+            <p>Back</p>
+          </button>
+        </div>
+        <div class="project-info-cont">
+          <ng-container *ngIf="data$ | async as data; else elseBlock">
+            <div class="project-img-cont">
+              <p>{{ data.project.name }}</p>
+              <img [src]="data.project.img" alt="project-name" />
+            </div>
+            <div class="project-details-cont">
+              <div class="project-info-item">
+                <div class="item-spec-bg">
+                  <p class="item-spec-label">No.</p>
+                </div>
+                <div class="item-value-bg">
+                  <p class="item-value-label">{{ data.project.no }}</p>
+                </div>
+              </div>
+              <div class="project-info-item">
+                <div class="item-spec-bg">
+                  <p class="item-spec-label">NAME</p>
+                </div>
+                <div class="item-value-bg">
+                  <p class="item-value-label">{{ data.project.name }}</p>
+                </div>
+              </div>
+              <div class="project-info-item">
+                <div class="item-spec-bg">
+                  <p class="item-spec-label">VERS</p>
+                </div>
+                <div class="item-value-bg">
+                  <p class="item-value-label">{{ data.project.version }}</p>
+                </div>
+              </div>
+              <!-- <div class="project-info-item">
+                <div class="item-spec-bg">
+                  <p class="item-spec-label">TECH</p>
+                </div>
+                <div class="item-value-bg">
+                  <p class="item-value-label">ANGULAR</p>
+                </div>
+              </div> -->
+              <div class="project-info-item">
+                <div class="item-spec-bg">
+                  <p class="item-spec-label">VISIT</p>
+                </div>
+                <div class="item-value-bg visit-cont">
+                  <img
+                    (click)="onClickView(data.project.play)"
+                    class="img-play nes-pointer"
+                    src="../../../assets/icons/play.png"
+                    alt="img-play"
+                  />
+                  <span
+                    class="nes-icon github is-small nes-pointer"
+                    (click)="onClickView(data.project.github)"
+                  ></span>
+                </div>
+              </div>
+            </div>
+            <div class="project-desc-cont">
+              <div class="desc-cont">
+                <div class="desc-title-bg">
+                  <p class="desc-title-label">DESCRIPTION</p>
+                </div>
+                <div class="desc-text-cont">
+                  <p class="desc-text">
+                    {{ data.project.description }}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </ng-container>
+          <ng-template #elseBlock class="project-not-found-cont">
+            Project not found!!</ng-template
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

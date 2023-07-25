@@ -1,0 +1,20 @@
+<div class="bg-main">
+  <div class="table">
+    <ng-container *ngIf="data$ | async as data">
+      <div class="port-box-project-cont">
+        <ng-container *ngFor="let project of data.projects">
+          <port-box-project
+            [project]="project"
+            (click)="onClickProject(project)"
+          ></port-box-project>
+        </ng-container>
+      </div>
+    </ng-container>
+
+    <button type="button" class="nes-btn back-btn" [routerLink]="['/home']">
+      Back
+    </button>
+    <div class="table-base base-left"></div>
+    <div class="table-base base-right"></div>
+  </div>
+</div>

@@ -21,6 +21,18 @@ export const appRoutes: Route[] = [
       import('./skills/skills.routes').then((r) => r.skillsRoutes),
   },
   {
+    path: 'projects',
+    loadChildren: () =>
+      import('./projects/projects.routes').then((r) => r.projectsRoutes),
+  },
+  {
+    path: 'projects/:no',
+    loadChildren: () =>
+      import('./project-detail/project-detail.routes').then(
+        (r) => r.projectDetailRoutes
+      ),
+  },
+  {
     path: '**',
     redirectTo: 'home',
   },

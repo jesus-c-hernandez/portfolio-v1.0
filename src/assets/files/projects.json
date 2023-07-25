@@ -1,0 +1,56 @@
+{
+  "projects": [
+    {
+      "no": "001",
+      "name": "FALL MEMORAM",
+      "types": [
+        "front"
+      ],
+      "tech": [
+        {
+          "name": "angular",
+          "img": "../../../../assets/skills/angular.png"
+        },
+        {
+          "name": "node js",
+          "img": "../../../../assets/skills/node.png"
+        },
+        {
+          "name": "mongo",
+          "img": "../../../../assets/skills/mongo.png"
+        }
+      ],
+      "version": "0.6.0",
+      "play": "https://fall-memoram.netlify.app/",
+      "github": "https://github.com/jesus-c-hernandez/fall-memoram",
+      "img": "../../../../assets/projects/main.png",
+      "description": "Memorama game with Fall Guys videogame theme. Application built to practice animations, layouts and SCSS styles, also the connection with an API and database to save the scores."
+    },
+    {
+      "no": "002",
+      "name": "COUR APP",
+      "types": [
+        "front"
+      ],
+      "tech": [
+        {
+          "name": "angular",
+          "img": "../../../../assets/skills/angular.png"
+        },
+        {
+          "name": "node js",
+          "img": "../../../../assets/skills/node.png"
+        },
+        {
+          "name": "mongo",
+          "img": "../../../../assets/skills/mongo.png"
+        }
+      ],
+      "version": "1.0.0",
+      "play": "https://reactive-angular-app.netlify.app/",
+      "github": "https://github.com/jesus-c-hernandez/Course-RxJs-app",
+      "img": "../../../../assets/projects/courses.png",
+      "description": "Aplication built to practice the reactivity whit Angular and RxJs library, the conection whit an API built with Typescript and Node js to get de courses saved."
+    }
+  ]
+}
