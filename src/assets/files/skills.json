@@ -5,7 +5,7 @@
       "area": [
         "front"
       ],
-      "img": "../../../../assets/skills/angular.png",
+      "img": "../../../../assets/skills-min/angular-min.png",
       "xp": "Medium"
     },
     {
@@ -13,7 +13,7 @@
       "area": [
         "front"
       ],
-      "img": "../../../../assets/skills/html5.png",
+      "img": "../../../../assets/skills-min/html5-min.png",
       "xp": "Medium"
     },
     {
@@ -21,7 +21,7 @@
       "area": [
         "front"
       ],
-      "img": "../../../../assets/skills/css.png",
+      "img": "../../../../assets/skills-min/css-min.png",
       "xp": "Medium"
     },
     {
@@ -29,7 +29,7 @@
       "area": [
         "front"
       ],
-      "img": "../../../../assets/skills/figma.png",
+      "img": "../../../../assets/skills-min/figma-min.png",
       "xp": "Medium"
     },
     {
@@ -37,7 +37,7 @@
       "area": [
         "back"
       ],
-      "img": "../../../../assets/skills/docker.png",
+      "img": "../../../../assets/skills-min/docker-min.png",
       "xp": "Low"
     },
     {
@@ -46,7 +46,7 @@
         "front",
         "back"
       ],
-      "img": "../../../../assets/skills/git.png",
+      "img": "../../../../assets/skills-min/git-min.png",
       "xp": "Medium"
     },
     {
@@ -54,7 +54,7 @@
       "area": [
         "back"
       ],
-      "img": "../../../../assets/skills/java.png",
+      "img": "../../../../assets/skills-min/java-min.png",
       "xp": "Medium"
     },
     {
@@ -63,7 +63,7 @@
         "front",
         "back"
       ],
-      "img": "../../../../assets/skills/js.png",
+      "img": "../../../../assets/skills-min/js-min.png",
       "xp": "Medium"
     },
     {
@@ -71,7 +71,7 @@
       "area": [
         "back"
       ],
-      "img": "../../../../assets/skills/linux.png",
+      "img": "../../../../assets/skills-min/linux-min.png",
       "xp": "Low"
     },
     {
@@ -79,7 +79,7 @@
       "area": [
         "back"
       ],
-      "img": "../../../../assets/skills/mongo.png",
+      "img": "../../../../assets/skills-min/mongo-min.png",
       "xp": "Medium"
     },
     {
@@ -88,7 +88,7 @@
         "front",
         "back"
       ],
-      "img": "../../../../assets/skills/ts.png",
+      "img": "../../../../assets/skills-min/ts-min.png",
       "xp": "Medium"
     },
     {
@@ -96,7 +96,7 @@
       "area": [
         "front"
       ],
-      "img": "../../../../assets/skills/react.png",
+      "img": "../../../../assets/skills-min/react-min.png",
       "xp": "Low"
     },
     {
@@ -104,7 +104,7 @@
       "area": [
         "back"
       ],
-      "img": "../../../../assets/skills/postgresql.png",
+      "img": "../../../../assets/skills-min/postgresql-min.png",
       "xp": "Low"
     },
     {
@@ -112,7 +112,7 @@
       "area": [
         "front"
       ],
-      "img": "../../../../assets/skills/ngrx.png",
+      "img": "../../../../assets/skills-min/ngrx-min.png",
       "xp": "Low"
     },
     {
@@ -120,7 +120,7 @@
       "area": [
         "front"
       ],
-      "img": "../../../../assets/skills/sass.png",
+      "img": "../../../../assets/skills-min/sass-min.png",
       "xp": "Medium"
     },
     {
@@ -128,7 +128,7 @@
       "area": [
         "back"
       ],
-      "img": "../../../../assets/skills/express.png",
+      "img": "../../../../assets/skills-min/express-min.png",
       "xp": "Medium"
     },
     {
@@ -136,7 +136,7 @@
       "area": [
         "back"
       ],
-      "img": "../../../../assets/skills/node.png",
+      "img": "../../../../assets/skills-min/node-min.png",
       "xp": "Medium"
     }
   ]
