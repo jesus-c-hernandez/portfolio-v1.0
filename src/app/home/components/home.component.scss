@@ -1,3 +1,13 @@
+.home-container {
+  position: relative;
+}
+
+a {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
 .btns-cont {
   display: flex;
   flex-direction: column;

@@ -20,6 +20,9 @@ body {
   // font-family: "Roboto Mono", monospace;
   // font-family: "VT323", monospace;
   height: 100vh;
+  ::-webkit-scrollbar {
+      display: none;
+    }
 }
 // === Background ===
 .bg-main {
