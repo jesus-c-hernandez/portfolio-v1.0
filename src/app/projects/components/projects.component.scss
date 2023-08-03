@@ -1,9 +1,7 @@
-$main-color-4: #625f6e;
-
 .table {
   width: 360px;
   height: 566px;
-  background-color: $main-color-4;
+  background-color: var(--main-color-4);
   border-radius: 6px;
   border: 4px #212529 solid;
   padding: 14px;
@@ -24,7 +22,7 @@ $main-color-4: #625f6e;
 .table-base {
   width: 30px;
   height: 22px;
-  background-color: $main-color-4;
+  background-color: var(--main-color-4);
   border-radius: 0 0 4px 4px;
   border: 4px #212529 solid;
 

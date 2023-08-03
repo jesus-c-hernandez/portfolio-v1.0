@@ -23,8 +23,8 @@
       "version": "0.6.0",
       "play": "https://fall-memoram.netlify.app/",
       "github": "https://github.com/jesus-c-hernandez/fall-memoram",
-      "img": "../../../../assets/projects/main.png",
-      "description": "Memorama game with Fall Guys videogame theme. Application built to practice animations, layouts and SCSS styles, also the connection with an API and database to save the scores."
+      "img": "../../../../assets/projects-min/main-min.png",
+      "description": "Memoram game with Fall Guys videogame theme. Application built to practice animations, layouts and SCSS styles, also the connection with an API and database to save the scores."
     },
     {
       "no": "002",
@@ -49,7 +49,7 @@
       "version": "1.0.0",
       "play": "https://reactive-angular-app.netlify.app/",
       "github": "https://github.com/jesus-c-hernandez/Course-RxJs-app",
-      "img": "../../../../assets/projects/courses.png",
+      "img": "../../../../assets/projects-min/courses-min.png",
       "description": "Aplication built to practice the reactivity whit Angular and RxJs library, the conection whit an API built with Typescript and Node js to get de courses saved."
     }
   ]

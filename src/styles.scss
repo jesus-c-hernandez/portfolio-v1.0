@@ -1,8 +1,11 @@
-$main-color-1: #8c1c54;
-$main-color-4: #625f6e;
-$main-color-6: #bebebe;
-$main-color-7: #808080;
-$main-color-8: #333399;
+:root {
+  --main-color-1: #8c1c54;
+  --main-color-3: #a1bc2f;
+  --main-color-4: #625f6e;
+  --main-color-6: #bebebe;
+  --main-color-7: #808080;
+  --main-color-8: #333399;
+}
 
 $fc-1: #f1f3f5;
 
@@ -31,10 +34,10 @@ body {
 .console-box {
   width: 360px;
   height: 600px;
-  background-color: $main-color-6;
+  background-color: var(--main-color-6);
   margin: 10px auto;
   border-radius: 20px 20px 100px 20px;
-  border: 2px $main-color-4 solid;
+  border: 2px var(--main-color-4) solid;
 }
 
 .console-cont-top {
@@ -53,23 +56,23 @@ body {
   font-family: "VT323", monospace;
   font-size: 16px;
   padding: 0px 14px;
-  background-color: $main-color-6;
-  border: $main-color-4 2px solid;
+  background-color: var(--main-color-6);
+  border: var(--main-color-4) 2px solid;
 }
 
 .console-btn:hover,
 .console-btn-active {
-  background-color: $main-color-4;
+  background-color: var(--main-color-4);
   color: $fc-1;
 }
 
 .btn-on {
-  border-right: $main-color-4 1px solid;
+  border-right: var(--main-color-4) 1px solid;
   border-radius: 16px 0 0 16px;
 }
 
 .btn-off {
-  border-left: $main-color-4 1px solid;
+  border-left: var(--main-color-4) 1px solid;
   border-radius: 0 16px 16px 0;
 }
 
@@ -81,10 +84,10 @@ body {
 .console-cont-screen {
   width: 340px;
   height: 540px;
-  background-color: $main-color-7;
+  background-color: var(--main-color-7);
   margin: 8px auto;
   border-radius: 10px 10px 80px 10px;
-  border: 2px $main-color-4 solid;
+  border: 2px var(--main-color-4) solid;
   position: relative;
 }
 
@@ -99,12 +102,12 @@ body {
 .console-deco {
   width: 130px;
   height: 4px;
-  background-color: $main-color-1;
+  background-color: var(--main-color-1);
   margin: 8px 10px;
 }
 
 .console-deco-c2 {
-  background-color: $main-color-8;
+  background-color: var(--main-color-8);
 }
 
 .console-deco-small {
