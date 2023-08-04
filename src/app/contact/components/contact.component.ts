@@ -1,27 +1,20 @@
 import { CommonModule } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { Component } from '@angular/core';
+import { TopConsoleComponent } from 'src/app/shared/components/top-console/top-console.component';
 
 @Component({
   selector: 'port-contact',
   templateUrl: 'contact.component.html',
   styleUrls: ['./contact.component.scss'],
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, TopConsoleComponent],
 })
-export class ContactComponent implements OnInit {
+export class ContactComponent {
   isBtnOnActive: boolean = true;
   emailCopied: boolean = false;
 
-  constructor(private router: Router) {}
-
-  ngOnInit() {}
-
   onClickBtnOff() {
     this.isBtnOnActive = false;
-    setTimeout(() => {
-      this.router.navigateByUrl('/');
-    }, 800);
   }
 
   openNewWindow(link: string): void {

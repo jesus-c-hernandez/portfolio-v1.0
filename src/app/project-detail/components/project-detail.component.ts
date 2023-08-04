@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { combineLatest, filter } from 'rxjs';
+import { TopConsoleComponent } from 'src/app/shared/components/top-console/top-console.component';
 import { ProjectsService } from 'src/app/shared/services/projects.service';
 
 @Component({
@@ -9,7 +10,7 @@ import { ProjectsService } from 'src/app/shared/services/projects.service';
   templateUrl: 'project-detail.component.html',
   styleUrls: ['./project-detail.component.scss'],
   standalone: true,
-  imports: [CommonModule, RouterLink],
+  imports: [CommonModule, RouterLink, TopConsoleComponent],
 })
 export class ProjectDetailComponent implements OnInit {
   isBtnOnActive: boolean = true;
@@ -21,7 +22,6 @@ export class ProjectDetailComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
-    private router: Router,
     private projectsService: ProjectsService
   ) {}
 
@@ -29,9 +29,6 @@ export class ProjectDetailComponent implements OnInit {
 
   onClickBtnOff() {
     this.isBtnOnActive = false;
-    setTimeout(() => {
-      this.router.navigateByUrl('/');
-    }, 800);
   }
 
   onClickView(url: string) {

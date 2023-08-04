@@ -1,0 +1,9 @@
+<div class="top-cont-btn">
+  <button
+    class="console-btn btn-on"
+    [ngClass]="{ 'console-btn-active': isBtnOnActive }"
+  >
+    On
+  </button>
+  <button class="console-btn btn-off" (click)="onClickBtnOff()">Off</button>
+</div>

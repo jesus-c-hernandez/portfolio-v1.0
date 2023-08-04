@@ -1,17 +1,7 @@
 <div class="bg-main">
   <div class="console-box" [ngClass]="{ 'console-box-out': !isBtnOnActive }">
     <div class="console-cont-top">
-      <div class="top-cont-btn">
-        <button
-          class="console-btn btn-on"
-          [ngClass]="{ 'console-btn-active': isBtnOnActive }"
-        >
-          On
-        </button>
-        <button class="console-btn btn-off" (click)="onClickBtnOff()">
-          Off
-        </button>
-      </div>
+      <port-top-console (isOn)="onClickBtnOff()" />
     </div>
     <div class="console-cont-screen">
       <div class="console-deco-cont">
