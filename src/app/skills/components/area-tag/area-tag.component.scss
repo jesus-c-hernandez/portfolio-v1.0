@@ -23,3 +23,14 @@ $fc-1: #f1f3f5;
 .bgc-8 {
   background-color: var(--main-color-8);
 }
+
+@media screen and (min-width: 480px) and (max-width: 820px) {
+  .area-tag-cont {
+    gap: 12px;
+  }
+  .area-tag-cont span {
+    width: 64px;
+    height: 34px;
+    font-size: 24px;
+  }
+}

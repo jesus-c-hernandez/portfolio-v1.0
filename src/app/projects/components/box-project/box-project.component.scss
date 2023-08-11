@@ -37,11 +37,7 @@
   width: 120px;
   height: 20px;
   font-family: "Arial";
-  // display: inline-block;
 
-  // position: absolute;
-
-  // transform: translateX(-20px);
   transform: rotate(-90deg);
 }
 
@@ -52,4 +48,25 @@
   font-style: italic;
   text-align: center;
   color: var(--main-color-1);
+}
+
+@media screen and (min-width: 480px) and (max-width: 820px) {
+  .box-proj-cont {
+    width: 190px;
+    height: 180px;
+  }
+
+  .box-proj-cover {
+    width: 170px;
+    height: 180px;
+  }
+
+  .box-proj-name {
+    width: 170px;
+  }
+
+  .box-proj-name p {
+    transform: translateY(-76px);
+    font-size: 16px;
+  }
 }

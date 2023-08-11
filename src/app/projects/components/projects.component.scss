@@ -45,6 +45,13 @@
   gap: 16px;
 }
 
+@media screen and (min-width: 480px) and (max-width: 820px) {
+  .table {
+    width: min(76vw, 660px);
+    height: min(74vh, 754px);
+  }
+}
+
 /**
  * ----------------------------------------
  * animation scale-up-ver-center

@@ -21,8 +21,8 @@ body {
   // font-family: "VT323", monospace;
   height: 100vh;
   ::-webkit-scrollbar {
-      display: none;
-    }
+    display: none;
+  }
 }
 // === Background ===
 .bg-main {
@@ -46,12 +46,13 @@ body {
 .console-cont-top {
   width: 356px;
   height: 34px;
+  display: flex;
+  justify-content: end;
+  padding: 0 20px;
 }
 
 .top-cont-btn {
-  width: 96px;
   margin: 4px auto 0 auto;
-  margin-left: 240px;
   display: flex;
 }
 
@@ -147,4 +148,32 @@ body {
   left: 10px;
   top: 50%;
   transform: translate(-25%, -50%);
+}
+
+@media screen and (min-width: 480px) and (max-width: 820px) {
+  .console-box {
+    width: min(90vw, 740px);
+    height: min(88vh, 980px);
+  }
+
+  .console-cont-top {
+    width: min(90vw, 740px);
+  }
+
+  .console-cont-screen {
+    width: min(84vw, 740px);
+    height: min(82vh, 980px);
+  }
+
+  .console-deco-cont {
+    grid-template-columns: 36vw 1fr 16vw;
+  }
+
+  .console-deco {
+    width: min(34vw, 290px);
+  }
+
+  .console-deco-small {
+    width: min(14vw, 120px);
+  }
 }

@@ -16,7 +16,10 @@
       <p class="console-power-label">Power</p>
       <div class="screen-cont">
         <h3>Skills</h3>
-        <port-skill-info [skill]="skillSelected"></port-skill-info>
+        <port-skill-info
+          class="skill-info-cont"
+          [skill]="skillSelected"
+        ></port-skill-info>
         <div class="skill-icons-gen-cont">
           <ng-container *ngIf="data$ | async as data">
             <div class="skill-img-cont" *ngFor="let skill of data.skills">

@@ -59,6 +59,11 @@
   justify-content: space-between;
 }
 
+ul > i > img {
+  width: 50px;
+  height: 50px;
+}
+
 .poke {
   position: absolute;
   top: 70%;
@@ -75,6 +80,48 @@
 
 .balloon-text {
   font-size: 10px;
+}
+
+@media screen and (min-width: 480px) and (max-width: 820px) {
+  .screen-cont {
+    width: min(76vw, 660px);
+    height: min(74vh, 754px);
+  }
+
+  h3 {
+    font-size: 28px;
+  }
+
+  .table {
+    width: min(60vw, 660px);
+    height: min(54vh, 754px);
+    padding: 32px;
+  }
+
+  .table > ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  ul > i > img {
+    border-radius: 8px;
+    width: 80px;
+    height: 80px;
+  }
+
+  .poke {
+    top: 60%;
+  }
+
+  .balloon {
+    top: 40%;
+    left: 5%;
+  }
+
+  .balloon-text {
+    font-size: 14px;
+  }
 }
 
 /**

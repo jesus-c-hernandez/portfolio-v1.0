@@ -19,21 +19,29 @@
         <div class="table">
           <ul>
             <i
-              class="nes-icon github is-medium nes-pointer"
+              class="nes-pointer"
               (click)="openNewWindow('https://github.com/jesus-c-hernandez')"
-            ></i>
+            >
+              <img
+                src="../../../assets/icons/github-min.png"
+                alt="github-img"
+              />
+            </i>
+            <i class="nes-pointer" (click)="copyToClipboard()"
+              ><img src="../../../assets/icons/gmail-min.png" alt="gmail-img" />
+            </i>
             <i
-              class="nes-icon gmail is-medium nes-pointer"
-              (click)="copyToClipboard()"
-            ></i>
-            <i
-              class="nes-icon linkedin is-medium nes-pointer"
+              class="nes-pointer"
               (click)="
                 openNewWindow(
                   'http://www.linkedin.com/in/jesus-casta%C3%B1eda-hernandez'
                 )
               "
-            ></i>
+            >
+              <img
+                src="../../../assets/icons/linkedin-min.png"
+                alt="linkedin-img"
+            /></i>
             <!-- <i class="nes-bulbasaur"></i> -->
             <!-- <i class="nes-charmander"></i> -->
             <i class="nes-squirtle poke"></i>
