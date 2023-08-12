@@ -20,6 +20,6 @@ export class TopConsoleComponent {
     this.isBtnOnActive = false;
     setTimeout(() => {
       this.router.navigateByUrl('/');
-    }, 800);
+    }, 300);
   }
 }
