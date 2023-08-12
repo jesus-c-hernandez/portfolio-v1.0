@@ -99,7 +99,7 @@ $fc-7: #495057;
   place-items: center;
 }
 
-@media screen and (min-width: 480px) and (max-width: 820px) {
+@media screen and (min-width: 480px) {
   .skill-info-gen-cont {
     grid-template-columns: 40vw 1fr;
     align-items: start;
@@ -142,5 +142,58 @@ $fc-7: #495057;
 
   .skill-info-type-cont {
     height: 48px;
+  }
+}
+
+@media screen and (min-width: 820px) {
+  .skill-info-gen-cont {
+    grid-template-columns: 38vw 1fr;
+  }
+
+  .skill-name-cont {
+    width: min(38vw, 400px);
+    height: 60px;
+  }
+
+  .skill-name-text {
+    font-size: 34px;
+  }
+
+  .skill-icon-cont {
+    width: min(38vw, 386px);
+    height: 158px;
+  }
+
+  .skill-icon-cont-i p {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+
+  .skill-icon-cont-i img {
+    width: min(12vw, 124px);
+    height: min(12vw, 124px);
+  }
+
+  .skill-info-cont {
+    width: min(38vw, 400px);
+    height: 90px;
+  }
+
+  .skill-info-xp {
+    font-size: 22px;
+  }
+
+  .skill-info-type-cont {
+    height: 30px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .skill-info-gen-cont {
+    grid-template-columns: 400px 1fr;
+  }
+
+  .skill-icon-cont {
+    width: min(40vw, 376px);
   }
 }

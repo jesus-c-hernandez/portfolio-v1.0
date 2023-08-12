@@ -209,10 +209,10 @@ $fc-9: #212529;
   place-items: center;
 }
 
-@media screen and (min-width: 480px) and (max-width: 820px) {
+@media screen and (min-width: 480px) {
   .screen-cont {
     width: min(76vw, 660px);
-    height: min(74vh, 754px);
+    height: min(78vh, 780px);
   }
 
   .top-cont {
@@ -293,7 +293,7 @@ $fc-9: #212529;
   }
 
   .desc-cont {
-    width: min(calc(76vw - 4px), 580px);
+    width: min(calc(76vw - 4px), 616px);
     height: 340px;
   }
 
@@ -316,6 +316,71 @@ $fc-9: #212529;
   .desc-text {
     font-size: 32px;
     line-height: 32px;
+  }
+}
+
+@media screen and (min-width: 820px) {
+  .screen-cont {
+    width: min(78vw, 790px);
+    height: min(74vh, 650px);
+  }
+
+  .top-cont {
+    width: min(calc(78vw - 4px), 786px);
+    height: 34px;
+    padding-right: 20px;
+  }
+
+  .info-proj-cont {
+    height: 34px;
+  }
+
+  .info-proj-cont p {
+    font-size: 24px;
+  }
+
+  .top-btn span {
+    width: 28px;
+    height: 28px;
+    font-size: 18px;
+  }
+
+  .top-btn p {
+    font-size: 24px;
+  }
+
+  .project-info-cont {
+    grid-template-columns: 30vw 1fr;
+  }
+
+  .project-img-cont {
+    width: min(38vw, 360px);
+    height: 220px;
+  }
+
+  .project-img-cont p {
+    font-size: 28px;
+  }
+
+  .project-img-cont img {
+    width: min(36vw, 352px);
+    height: 172px;
+  }
+
+  .item-spec-bg {
+    width: min(12vw, 80px);
+    height: 18px;
+  }
+
+  .desc-cont {
+    width: min(calc(78vw - 4px), 786px);
+    // height: 340px;
+  }
+}
+
+@media screen and (min-width: 820px) and (max-height: 600px) {
+  .desc-cont {
+    height: 174px;
   }
 }
 

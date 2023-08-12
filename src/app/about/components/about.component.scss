@@ -63,7 +63,7 @@ img {
   box-shadow: 0px 6px 1px 0px rgba(0, 0, 0, 0.2);
 }
 
-@media screen and (min-width: 480px) and (max-width: 820px) {
+@media screen and (min-width: 480px) {
   .screen-cont {
     width: min(76vw, 660px);
     height: min(74vh, 754px);
@@ -78,7 +78,48 @@ img {
   }
 
   img {
-    height: 130px;
+    height: 120px;
+  }
+
+  .img-circle {
+    width: 120px;
+  }
+}
+
+@media screen and (min-width: 820px) {
+  .screen-cont {
+    width: min(78vw, 790px);
+    height: min(74vh, 650px);
+  }
+
+  .balloon {
+    width: 58vw;
+  }
+
+  .text {
+    font-size: 30px;
+  }
+
+  img {
+    height: 120px;
+  }
+
+  .img-circle {
+    width: 120px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .balloon {
+    width: 40vw;
+  }
+
+  .text {
+    font-size: 34px;
+  }
+
+  img {
+    height: 140px;
   }
 
   .img-circle {

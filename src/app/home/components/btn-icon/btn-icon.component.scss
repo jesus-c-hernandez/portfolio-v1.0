@@ -57,18 +57,19 @@
   }
 }
 
-@media screen and (min-width: 480px) and (max-width: 820px) {
+@media screen and (min-width: 480px) {
   .btn-cont {
-    width: 130px;
+    width: 240px;
   }
   .btn-img {
     width: 90px;
+    height: 90px;
   }
   .btn-circle {
-    width: 120px;
+    width: 100px;
   }
   .btn-normal {
-    font-size: 20px;
+    font-size: 18px;
     width: 190px;
   }
 }

@@ -150,10 +150,11 @@ body {
   transform: translate(-25%, -50%);
 }
 
-@media screen and (min-width: 480px) and (max-width: 820px) {
+@media screen and (min-width: 480px) {
   .console-box {
     width: min(90vw, 740px);
     height: min(88vh, 980px);
+    border-radius: 20px 20px 60px 20px;
   }
 
   .console-cont-top {
@@ -163,6 +164,7 @@ body {
   .console-cont-screen {
     width: min(84vw, 740px);
     height: min(82vh, 980px);
+    border-radius: 10px 10px 40px 10px;
   }
 
   .console-deco-cont {
@@ -175,5 +177,33 @@ body {
 
   .console-deco-small {
     width: min(14vw, 120px);
+  }
+}
+
+@media screen and (min-width: 820px) {
+  .console-box {
+    width: min(90vw, 880px);
+    height: min(92vh, 760px);
+  }
+
+  .console-cont-top {
+    width: min(90vw, 880px);
+  }
+
+  .console-cont-screen {
+    width: min(84vw, 840px);
+    height: min(82vh, 700px);
+  }
+
+  .console-deco-cont {
+    grid-template-columns: 28vw 1fr 12vw;
+  }
+
+  .console-deco {
+    width: min(26vw, 380px);
+  }
+
+  .console-deco-small {
+    width: min(10vw, 140px);
   }
 }

@@ -24,7 +24,7 @@ $fc-1: #f1f3f5;
   background-color: var(--main-color-8);
 }
 
-@media screen and (min-width: 480px) and (max-width: 820px) {
+@media screen and (min-width: 480px) {
   .area-tag-cont {
     gap: 12px;
   }
@@ -32,5 +32,13 @@ $fc-1: #f1f3f5;
     width: 64px;
     height: 34px;
     font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 820px) {
+  .area-tag-cont span {
+    width: 80px;
+    height: 26px;
+    font-size: 18px;
   }
 }
