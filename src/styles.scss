@@ -207,3 +207,9 @@ body {
     width: min(10vw, 140px);
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .console-deco-cont {
+    grid-template-columns: 380px 1fr 140px;
+  }
+}
