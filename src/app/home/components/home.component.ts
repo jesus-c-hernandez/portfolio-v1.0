@@ -37,4 +37,11 @@ export class HomeComponent {
       text: 'Contact',
     },
   ];
+
+  openResume(): void {
+    window.open(
+      '../../../assets/resume/Jesús_Castañeda-Full_Stack.pdf',
+      '_blank'
+    );
+  }
 }
