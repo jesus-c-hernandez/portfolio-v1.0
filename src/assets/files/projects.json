@@ -3,9 +3,7 @@
     {
       "no": "001",
       "name": "FALL MEMORAM",
-      "types": [
-        "front"
-      ],
+      "types": ["front"],
       "tech": [
         {
           "name": "angular",
@@ -29,9 +27,7 @@
     {
       "no": "002",
       "name": "COUR APP",
-      "types": [
-        "front"
-      ],
+      "types": ["front"],
       "tech": [
         {
           "name": "angular",
@@ -51,6 +47,22 @@
       "github": "https://github.com/jesus-c-hernandez/Course-RxJs-app",
       "img": "../../../../assets/projects-min/courses-min.png",
       "description": "Aplication built to practice the reactivity whit Angular and RxJs library, the conection whit an API built with Typescript and Node js to get de courses saved."
+    },
+    {
+      "no": "003",
+      "name": "DATES CALC",
+      "types": ["front"],
+      "tech": [
+        {
+          "name": "angular",
+          "img": "../../../../assets/skills/angular.png"
+        }
+      ],
+      "version": "1.0.0",
+      "play": "https://date-calculator-v1.netlify.app/",
+      "github": "https://github.com/jesus-c-hernandez/date-calculator",
+      "img": "../../../../assets/projects-min/date-calc-min.jpg",
+      "description": "Aplication built in Angular v15 to calculate the time between two dates in a easy way."
     }
   ]
 }
