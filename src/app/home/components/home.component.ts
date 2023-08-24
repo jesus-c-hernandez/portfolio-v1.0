@@ -40,7 +40,7 @@ export class HomeComponent {
 
   openResume(): void {
     window.open(
-      '../../../assets/resume/Jesús_Castañeda-Full_Stack.pdf',
+      '../../../assets/resume/Jesús_Castañeda-Fullstack.pdf',
       '_blank'
     );
   }
